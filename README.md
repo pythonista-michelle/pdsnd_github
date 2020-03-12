@@ -20,6 +20,10 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Branches
+
+documentation
+
 ### Credits
 Code used to generated day of week in washington_day_of_week.R:
 
