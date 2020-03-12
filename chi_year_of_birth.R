@@ -10,6 +10,8 @@ chi = read.csv('chicago.csv', header = TRUE, sep = ",")
 head(chi)
 names(chi)
 
+# graphical representation of data
+
 qplot(
   x = Birth.Year,
   data = chi,
@@ -22,6 +24,6 @@ qplot(
   scale_x_continuous(limits = c(1950, 2000),
                      breaks = seq(1950, 2000, 10))
 
-#summarize
+#summarize data
 
 ny %>% group_by(Birth.Year) %>% tally(sort = TRUE)
