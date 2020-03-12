@@ -1,7 +1,7 @@
 # Written by Michelle Lonskey 2020-03-08
 # For Udacity Programming for Data Science with R
 # What is the most common day of week for bike share in Washington?
-
+# Changed line color in visual
 library(ggplot2)
 library(dplyr)
 
