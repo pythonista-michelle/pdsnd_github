@@ -1,6 +1,7 @@
 # Written by Michelle Lonskey 2020-03-08
 # For Udacity Programming for Data Science with R
 # What are the user counts by gender in New York City
+# changed color on visuals
 
 library(ggplot2)
 library(dplyr)
