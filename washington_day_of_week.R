@@ -1,6 +1,7 @@
 # Written by Michelle Lonskey 2020-03-08
 # For Udacity Programming for Data Science with R
 # What is the most common day of week for bike share in Washington?
+# Added to git repo 2020-03-11
 
 library(ggplot2)
 library(dplyr)
@@ -24,8 +25,6 @@ wash$Start.Time <- as.Date(wash$Start.Time)
 # checking the structure to verify it's a date now
 
 str(wash)
-
-# it is - woot
 
 # adding a column to the dataset that extracts the weekday name from the date
 wash$weekday <- weekdays(wash$Start.Time)

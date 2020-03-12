@@ -2,6 +2,7 @@
 # For Udacity Programming for Data Science with R
 # In what year were the most customers born?
 # Added to Git Repo 2020-03-11
+
 library(ggplot2)
 library(dplyr)
 
@@ -20,5 +21,7 @@ qplot(
 ) +
   scale_x_continuous(limits = c(1950, 2000),
                      breaks = seq(1950, 2000, 10))
+
+#summarize
 
 ny %>% group_by(Birth.Year) %>% tally(sort = TRUE)

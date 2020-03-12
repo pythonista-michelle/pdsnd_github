@@ -1,6 +1,6 @@
 # Written by Michelle Lonskey 2020-03-08
 # For Udacity Programming for Data Science with R
-# What are the user counts by gender in New York City
+# What are the user counts by gender in New York City?
 # Added to git repo 2020-03-11
 
 library(ggplot2)
